@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>M2L POWA</title>
+    <title>M2L</title>
     <link rel="icon"
           href="images/logo.png">
 
