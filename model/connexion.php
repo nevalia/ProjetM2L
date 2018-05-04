@@ -1,11 +1,11 @@
 <?php
-
-try {
-    $bdd = new PDO("mysql:host=localhost;dbname=mamar;charset=utf8", "mamar", "WX10wTwuvRbj3XXD",
-        array(
-            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES UTF8'
-        ));
+session_start();
+try
+{
+    $bdd = new PDO("mysql:host=172.16.0.3;dbname=mamar;charset=UTF8", "mamar", "WX10wTwuvRbj3XXD");
 }
-catch (Exception $e) {
-
+catch(Exception $e)
+{
+    die ("Erreur connexion");
 }
+?>

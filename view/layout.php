@@ -11,7 +11,7 @@
     <link href="<?= baseURL() ?>css/bootstrap.min.css" rel="stylesheet">
     <!-- styles -->
     <link href="<?= baseURL() ?>css/styles.css" rel="stylesheet">
-    <link href="<?= baseURL() ?>css/chat.css" rel="stylesheet">
+    <link href="<?= baseURL() ?>css/requete.css" rel="stylesheet">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
